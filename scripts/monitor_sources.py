@@ -4,6 +4,7 @@ import csv,hashlib,json,os,re,time
 from datetime import datetime,timezone
 from urllib.parse import urljoin,urlparse,urldefrag
 import requests
+import certifi
 from bs4 import BeautifulSoup
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); DATA=os.path.join(ROOT,"data")
 def now(): return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
