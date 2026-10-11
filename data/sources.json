@@ -1,0 +1,114 @@
+[
+  {
+    "source_id": "IGOD-TN-CATEGORIES",
+    "name": "IGOD Tamil Nadu category index",
+    "url": "https://igod.gov.in/sg/tn/categories",
+    "scope": "Tamil Nadu government category discovery",
+    "cadence_days": 7,
+    "type": "index"
+  },
+  {
+    "source_id": "IGOD-TN-DEPARTMENTS",
+    "name": "IGOD Tamil Nadu departments",
+    "url": "https://igod.gov.in/sg/TN/E003/organizations",
+    "scope": "Departments",
+    "cadence_days": 7,
+    "type": "organization_list"
+  },
+  {
+    "source_id": "IGOD-TN-BOARDS",
+    "name": "IGOD Tamil Nadu boards and undertakings",
+    "url": "https://igod.gov.in/sg/TN/E011/organizations",
+    "scope": "Boards / Undertakings",
+    "cadence_days": 7,
+    "type": "organization_list"
+  },
+  {
+    "source_id": "IGOD-TN-INSTITUTIONS",
+    "name": "IGOD Tamil Nadu academies and institutions",
+    "url": "https://igod.gov.in/sg/TN/E009/organizations",
+    "scope": "Academies / Institutions",
+    "cadence_days": 7,
+    "type": "organization_list"
+  },
+  {
+    "source_id": "IGOD-TN-OTHERS",
+    "name": "IGOD Tamil Nadu others",
+    "url": "https://igod.gov.in/sg/TN/E014/organizations",
+    "scope": "Others",
+    "cadence_days": 7,
+    "type": "organization_list"
+  },
+  {
+    "source_id": "IGOD-TN-DIRECTORATES",
+    "name": "IGOD Tamil Nadu directorates and commissionerates",
+    "url": "https://igod.gov.in/sg/TN/E004/organizations",
+    "scope": "Directorates / Commissionerates",
+    "cadence_days": 30,
+    "type": "organization_list"
+  },
+  {
+    "source_id": "IGOD-TN-COMMISSIONS",
+    "name": "IGOD Tamil Nadu commissions and committees",
+    "url": "https://igod.gov.in/sg/TN/E013/organizations",
+    "scope": "Commissions / Committees",
+    "cadence_days": 30,
+    "type": "organization_list"
+  },
+  {
+    "source_id": "IGOD-TN-STATUTORY",
+    "name": "IGOD Tamil Nadu statutory and autonomous bodies",
+    "url": "https://igod.gov.in/sg/TN/E051/organizations",
+    "scope": "Statutory / Autonomous Bodies",
+    "cadence_days": 30,
+    "type": "organization_list"
+  },
+  {
+    "source_id": "IGOD-TN-PSUS",
+    "name": "IGOD Tamil Nadu PSUs, JVs, companies and societies",
+    "url": "https://igod.gov.in/sg/TN/E059/organizations",
+    "scope": "PSUs / JVs / Companies / Societies",
+    "cadence_days": 30,
+    "type": "organization_list"
+  },
+  {
+    "source_id": "IGOD-TN-DISTRICTS",
+    "name": "IGOD Tamil Nadu districts",
+    "url": "https://igod.gov.in/sg/TN/E042/organizations",
+    "scope": "Districts",
+    "cadence_days": 30,
+    "type": "organization_list"
+  },
+  {
+    "source_id": "NIC-TN-SITES",
+    "name": "NIC Tamil Nadu government website list",
+    "url": "https://tn.nic.in/publication/list-of-websites/",
+    "scope": "Official cross-check",
+    "cadence_days": 30,
+    "type": "link_list"
+  },
+  {
+    "source_id": "INDIA-GOV-DIRECTORY",
+    "name": "India.gov web directory",
+    "url": "https://www.india.gov.in/directory/web-directory",
+    "scope": "Central and state directory discovery",
+    "cadence_days": 30,
+    "type": "link_list"
+  },
+  {
+    "source_id": "NATIONAL-SERVICE-PORTAL",
+    "name": "National Government Services Portal",
+    "url": "https://services.india.gov.in/service/listing",
+    "scope": "Citizen service discovery",
+    "cadence_days": 30,
+    "type": "link_list"
+  },
+  {
+    "source_id": "TN-ESEVAI",
+    "name": "Tamil Nadu e-Sevai citizen portal",
+    "url": "https://www.tnesevai.tn.gov.in/citizen/",
+    "scope": "Citizen service portal monitoring",
+    "cadence_days": 14,
+    "type": "link_list"
+  }
+]

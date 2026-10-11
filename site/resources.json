@@ -1,0 +1,122 @@
+[
+  {
+    "id": "JI-00094",
+    "category": "Central Government — Services / Schemes / Portals",
+    "name": "National Career Service (NCS)",
+    "url": "https://www.ncs.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official portal"
+  },
+  {
+    "id": "JI-00230",
+    "category": "Tamil Nadu — Public corporations / boards / utilities",
+    "name": "Metropolitan Transport Corporation Chennai (MTC)",
+    "url": "https://mtcbus.tn.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official organisation/department source corroborates URL"
+  },
+  {
+    "id": "JI-00366",
+    "category": "Tamil Nadu — State departments / directorates",
+    "name": "Tamil Nadu Medical Services Corporation (TNMSC)",
+    "url": "https://tnmsc.tn.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official organisation/department source corroborates URL"
+  },
+  {
+    "id": "JI-00398",
+    "category": "Tamil Nadu — Universities / education / research",
+    "name": "Central University of Tamil Nadu (CUTN)",
+    "url": "https://cutn.ac.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official homepage checked"
+  },
+  {
+    "id": "JI-00401",
+    "category": "Tamil Nadu — Universities / education / research",
+    "name": "Indian Institute of Technology Madras (IIT Madras)",
+    "url": "https://www.iitm.ac.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official homepage"
+  },
+  {
+    "id": "JI-00407",
+    "category": "Tamil Nadu — Universities / education / research",
+    "name": "National Institute of Technology Tiruchirappalli (NIT Trichy)",
+    "url": "https://www.nitt.edu/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official homepage"
+  },
+  {
+    "id": "JI-00450",
+    "category": "Tamil Nadu — Public corporations / boards / utilities",
+    "name": "Tamil Nadu Green Climate Company (TNGCC)",
+    "url": "https://tngcc.tn.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official homepage"
+  },
+  {
+    "id": "JI-00452",
+    "category": "Tamil Nadu — Public corporations / boards / utilities",
+    "name": "Overseas Manpower Corporation Limited (OMCL)",
+    "url": "https://www.omcmanpower.tn.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official organisation/department source corroborates URL"
+  },
+  {
+    "id": "JI-00453",
+    "category": "Tamil Nadu — Public corporations / boards / utilities",
+    "name": "Tamilnadu Magnesite Limited (TANMAG)",
+    "url": "https://tanmag.org/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official homepage"
+  },
+  {
+    "id": "JI-00454",
+    "category": "Tamil Nadu — Public corporations / boards / utilities",
+    "name": "Tamilnadu Newsprint and Papers Limited (TNPL)",
+    "url": "https://www.tnpl.com/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official corporate website"
+  },
+  {
+    "id": "JI-00455",
+    "category": "Tamil Nadu — State departments / directorates",
+    "name": "Directorate of Boilers, Tamil Nadu",
+    "url": "https://www.boilers.tn.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official homepage"
+  },
+  {
+    "id": "JI-00456",
+    "category": "Tamil Nadu — State departments / directorates",
+    "name": "Directorate of Industrial Safety and Health, Tamil Nadu",
+    "url": "https://dish.tn.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official homepage"
+  },
+  {
+    "id": "JI-00457",
+    "category": "Central Government — Services / Schemes / Portals",
+    "name": "Udyam Registration",
+    "url": "https://udyamregistration.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official service portal"
+  },
+  {
+    "id": "JI-00458",
+    "category": "Central Government — Services / Schemes / Portals",
+    "name": "Government e-Marketplace (GeM)",
+    "url": "https://gem.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official government references; homepage direct check limited"
+  },
+  {
+    "id": "JI-00459",
+    "category": "Central Government — Regional offices / organisations in Tamil Nadu",
+    "name": "Southern Railway",
+    "url": "https://sr.indianrailways.gov.in/",
+    "checked": "2026-10-11T00:00:00",
+    "verification_note": "Verified — official government directory link"
+  }
+]

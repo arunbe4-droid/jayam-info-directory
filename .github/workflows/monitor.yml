@@ -1,0 +1,23 @@
+name: Jayam Info Official Source Monitor
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 3 * * 1"
+permissions:
+  contents: write
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/monitor_sources.py
+      - run: python scripts/build_site.py
+      - run: |
+          git config user.name "jayam-info-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ site/
+          git diff --cached --quiet || (git commit -m "Automated official-source monitoring update" && git push)

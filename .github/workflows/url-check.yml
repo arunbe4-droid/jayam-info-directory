@@ -1,0 +1,22 @@
+name: Jayam Info Monthly URL Review
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 3 1 * *"
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/check_urls.py
+      - run: |
+          git config user.name "jayam-info-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/url_checks.csv
+          git diff --cached --quiet || (git commit -m "Monthly resource URL review" && git push)
