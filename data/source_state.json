@@ -1,6 +1,6 @@
 {
   "NIC-TN-SITES": {
-    "checked_at_utc": "2026-10-11T11:18:07+00:00",
+    "checked_at_utc": "2026-10-11T18:00:09+00:00",
     "requested_url": "https://tn.nic.in/publication/list-of-websites/",
     "final_url": "https://tn.nic.in/publication/list-of-websites/",
     "http_status": 200,
@@ -10,12 +10,12 @@
     "link_count": 63
   },
   "INDIA-GOV-DIRECTORY": {
-    "checked_at_utc": "2026-10-11T11:18:07+00:00",
+    "checked_at_utc": "2026-10-11T18:00:09+00:00",
     "requested_url": "https://www.india.gov.in/directory/web-directory",
     "final_url": "https://www.india.gov.in/directory/web-directory",
     "http_status": 200,
     "title": "Web Directory | Directory | National Portal of India",
-    "text_hash": "a5beb6a12526f69c13412a17263b1f26508d678cbf6b38bf9753e2535e60f53e",
+    "text_hash": "64230a3f71c1caa48b44e558471e1230396d210998d567157008d681120d1918",
     "link_hash": "1fc23851d6cb0f8ec3cc5954a2fa0933f551d3c85762a0e6242f5f1ef03eec70",
     "link_count": 17
   }
