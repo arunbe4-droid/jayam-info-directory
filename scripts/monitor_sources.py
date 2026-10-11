@@ -58,7 +58,7 @@ def main():
                 path=urlparse(u).path.lower();host=urlparse(u).hostname or ""
                 if src["type"]=="organization_list":
                     eligible=host.endswith("igod.gov.in") and u!=canon(src["url"]) and any(x in path for x in ("/org/","/organization/","/organizations/","/website/","/websites/"))
-                else:
+else:
 generic={"home","about us","contact us","login","sign in","privacy policy","terms","search","sitemap","profile","organization structure","district centres","state project profile","skip to main content","accessibility","help","feedback","screen reader access","copyright","disclaimer","website policies","hyperlinking policy","archive","faq","faqs","careers","tenders","news","events","gallery","photo gallery","site map"}
                     eligible=u!=canon(src["url"]) and bool(label.strip()) and label.strip().lower() not in generic
                 if not eligible or u in known or u in candidates:continue
