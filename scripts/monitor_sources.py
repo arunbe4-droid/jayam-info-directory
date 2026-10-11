@@ -28,9 +28,9 @@ def main():
     _,events0=rc(DATA+"/change_log.csv");_,oldc=rc(DATA+"/candidates.csv");_,resources=rc(DATA+"/resources.csv")
     known={canon(r.get("Official URL","")) for r in resources if canon(r.get("Official URL",""))}
     candidates={canon(c.get("candidate_url","")):c for c in oldc if canon(c.get("candidate_url",""))}
-    s=requests.Session()
-s.verify=certifi.where()
-s.headers["User-Agent"]="JayamInfoOfficialResourceMonitor/2.0""
+        s=requests.Session()
+    s.verify=certifi.where()
+    s.headers["User-Agent"]="JayamInfoOfficialResourceMonitor/2.0"
     t=now();events=[];added=0
     for src in sources:
         try:
